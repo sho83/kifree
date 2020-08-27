@@ -89,7 +89,7 @@ z-index: 1;
 }
 
 #home2{
-  height: 1000px;
+  height: 1500px;
 	background-image: url('conect2.jpg'),Linear-gradient(#fffacd,#f0f8ff);
 	background-size: cover;
 	background-attachment:fixed;
@@ -107,7 +107,7 @@ z-index: 1;
 }
 
 #home3{
-  height: 1000px;
+  height: 2000px;
 	background-image: url('conect3.png');
 	background-size: cover;
 	background-attachment:fixed;
