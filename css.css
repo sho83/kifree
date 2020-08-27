@@ -44,9 +44,9 @@ img{
   margin-top: 0px;
 }
 .home-content p{
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   margin:10px 0 42px;  
-  background-color:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,0.3);
   color:rgb(255,255,255);
 
 }
@@ -59,18 +59,28 @@ img{
   font-weight: normal;
   padding-top: 10px;
   color:#f6efdb;
+  text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+  black 1px -1px 0px, black -1px -1px 0px;
   }
 
 /*ボタン*/
-.button{
-  font-size:1.375rem;
-  background:#92cb97;
-  color:#fff;
-  border-radius:5px;
-  padding:18px 32px;
+.btn-circle-fishy {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  width: 160px;
+  height: 160px;
+  line-height: 155px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  transition: .4s;
 }
-.button:hover{
-  background:#80a491;
+
+.btn-circle-fishy:hover {
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
 }
 
 
