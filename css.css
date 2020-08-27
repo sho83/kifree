@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*共通箇所
+---------------------*/
+html{
+  font-size: 100%;
+}
+
+body{
+  font-family:"Yu Gothic Medium", "遊ゴシック Medium", "遊ゴシック体",
+  "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: black;
+  background-color: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%
+}
+
+/*page-header
+------------------*/
+.logo{
+  width: 210px;
+  margin-top: 14px;
+}
+.wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/*home-content
+--------------*/
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+.home-content p{
+  font-size: 1.125rem;
+  margin:10px 0 42px;
+}
+
+/*見出し*/
+.page-title{
+  font-size: 5rem;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+/*ボタン*/
+.button{
+  font-size:1.375rem;
+  background:#0bd;
+  color:#fff;
+  border-radius:5px;
+  padding:18px 32px;
+}
+.button:hover{
+  background:#0090aa;
+}
+
+
+/*大きな背景画像*/
+.big-bg{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+#home{
+  background-image: url(conect.jpg);
+  background-blend-mode: luminosity;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+}
+#home .page-title{
+  text-transform: none;
+}
+
+#home2{
+  background-image: url(conect2.jpg),Linear-gradient(#fffacd,#f0f8ff);
+  background-blend-mode: luminosity;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+#text2{
+  padding: 10%;
+  font-size: 25px;
+}
+
+/*リスト*/
+ol {
+  counter-reset:number; /*数字をリセット*/
+  list-style-type: none!important; /*数字を一旦消す*/
+  padding: 5%;
+  border: solid 2px #ffb107;
+  font-family: 'Philosopher', serif;
+  color: black;
+  font-weight: 700;
+}
+ol li {
+  border-bottom: dashed 1px orange;
+  position: relative;
+  padding: 0.5em 0.5em 0.5em 30px;
+  line-height: 1.5em;
+}
+ol li:before{
+  /* 以下数字をつける */
+  position: absolute;
+  counter-increment: number;
+  content: counter(number);
+  /*数字のデザイン変える*/
+  display:inline-block;
+  background: #ffb107;
+  color: white;
+  font-family: 'Avenir','Arial Black','Arial',sans-serif;
+  font-weight:bold;
+  font-size: 15px;
+  border-radius: 50%;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  /*以下 上下中央寄せのため*/
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+ol li:last-of-type {
+  border-bottom: none; /*最後のliの線だけ消す*/
+}
+
+
+/*footer*/
+#foot{
+  color: black;
+}
