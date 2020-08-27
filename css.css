@@ -32,7 +32,7 @@ img{
  justify-content: space-between;
 }
 .wrapper{
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 4%;
 }
@@ -45,7 +45,7 @@ img{
 }
 .home-content p{
   font-size: 1.3rem;
-  margin:10px 0 42px;  
+  margin:10px 0 42px;
   background-color:rgba(0,0,0,0.3);
   color:rgb(255,255,255);
 
@@ -76,6 +76,8 @@ img{
   overflow: hidden;
   background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
   transition: .4s;
+  font-size: 25px;
+  font-weight: normal;
 }
 
 .btn-circle-fishy:hover {
@@ -91,7 +93,7 @@ img{
   background-repeat: no-repeat;
 }
 #home{
-  height: 2000px;
+  height: 1500px;
 background-image: url('conect.jpg');
 background-size: cover;
 background-attachment: fixed;
@@ -105,7 +107,7 @@ z-index: 1;
 
 #home2{
   height: 1500px;
-	background-image: url('conect2.jpg'),Linear-gradient(#fffacd,#f0f8ff);
+	background-image: url('conect3.png'),Linear-gradient(#fffacd,#f0f8ff);
 	background-size: cover;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
@@ -123,7 +125,7 @@ z-index: 1;
 
 #home3{
   height: 2000px;
-	background-image: url('conect3.png');
+	background-image: url('conect2.jpg');
 	background-size: cover;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
@@ -176,6 +178,12 @@ ol li:last-of-type {
 
 
 /*footer*/
-#foot{
-  color: black;
+footer{
+  background: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  text-align: left;
+  padding: 26px 0;
+}
+footer p{
+  color:#fff;
+  font-size: 2em;
 }
