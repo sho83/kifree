@@ -124,13 +124,14 @@ z-index: 1;
 }
 
 #home3{
-  height: 2000px;
 	background-image: url('conect2.jpg');
 	background-size: cover;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
   color: #000000;
+  padding-top:200px;
+  padding-bottom:200px;
 }
 
 /*リスト*/
@@ -140,8 +141,10 @@ ol {
   padding: 5%;
   border: solid 2px #ffb107;
   font-family: 'Philosopher', serif;
-  color: black;
+  color: white;
   font-weight: 700;
+  width:80%;
+  margin-left:10%;
 }
 ol li {
   border-bottom: dashed 1px orange;
@@ -175,7 +178,10 @@ ol li:before{
 ol li:last-of-type {
   border-bottom: none; /*最後のliの線だけ消す*/
 }
-
+#kifree-message{
+padding-top:200px;
+color:white;
+}
 
 /*footer*/
 footer{
