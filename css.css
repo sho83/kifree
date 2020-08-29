@@ -134,6 +134,16 @@ z-index: 1;
   padding-bottom:200px;
 }
 
+#home4{
+  	background-image: url('conect2.jpg');
+  	background-size: cover;
+  	background-attachment:fixed;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+    height: 1000px;
+
+}
+
 /*リスト*/
 ol {
   margin: 0 auto;
