@@ -117,10 +117,19 @@ z-index: 1;
 #text2{
   padding: 10%;
   font-size: 25px;
+  background-color:#1760a0;
+  background:radial-gradient(rgba(255,191,31,1) ,rgba(255,191,31,0.3));
+  padding:40px;
+  color:#ffffff;
 }
+
 #text-title{
-  padding-top: 100px;
-  font-size: 35px;
+  padding-top: 150px;
+  font-size: 40px;
+  color:#f6efdb;
+  text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+  black 1px -1px 0px, black -1px -1px 0px;
+  
 }
 
 #home3{ background-color:rgb(142,190,190);
@@ -140,8 +149,117 @@ z-index: 1;
   	background-attachment:fixed;
   	background-repeat: no-repeat;
   	background-position: center center;
-    height: 1000px;
+        height: 1000px;
+}
+.step1{
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFF;
+    width:350px;
+    height:150px;
+    background-color:rgba(227,215,163,0.7);
+    font-size:25px;
+}
+.step1 img{
+   margin-right:10px;
+   vertical-align:middle;
+}
+.step1 span{
+   vertical-align:middle;
+}
+ 
+.step2{
+  display: table-cell;
+  vertical-align: middle;
+  color: #FFF;
+  width:350px;
+  height:150px;
+  background-color: rgba(227,215,163,0.7);
+  font-size:25px;
+}
+.step2 img{
+   margin-right:10px;
+   vertical-align:middle;
+}
+.step2 span{
+   vertical-align:middle;
+}
+ 
+.step3{
+  display: table-cell;
+  vertical-align: middle;
+  color: #FFF;
+  width:350px;
+  height:150px;
+  background-color: rgba(227,215,163,0.7);
+  font-size:25px;
+}
+.step3 img{
+   margin-right:10px;
+   vertical-align:middle;
+}
+.step3 span{
+   vertical-align:middle;
+}
+.step4{
+  display: table-cell;
+  vertical-align: middle;
+  color: #FFF;
+  width:350px;
+  height:150px;
+  background-color: rgba(227,215,163,0.7);
+  font-size:25px;
+}
+.step4 img{
+   margin-right:10px;
+   vertical-align:middle;
+}
+.step4 span{
+   vertical-align:middle;
+}
 
+/*フォ―ム*/
+h2{
+ padding-top: 150px;
+  font-size: 40px;
+  color:#f6efdb;
+  text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+  black 1px -1px 0px, black -1px -1px 0px;
+}
+form div{
+  margin-bottom:50px;
+  margin-left:100px;
+}
+label{
+  font-size:1.5rem;
+  margin-bottom:20px;
+  display:block;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+ background:rgba(255,255,255,0.5);
+ border:3px #fff solod;
+ border-radius:5px;
+ font-size:50px;
+}
+input[type="text"],
+input[type="email"]{
+      width:100%;
+      max-width:240px;
+}
+textarea{
+      width:100%;
+      max-width:480px;
+      height:6rem;
+}
+input[type="submit"]{
+      border:none;
+      cursor:pointer;
+      line-height:1;
+      font-size:30px;
+      margin-left:100px;
+      
 }
 
 /*リスト*/
