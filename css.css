@@ -132,15 +132,42 @@ z-index: 1;
   
 }
 
-#home3{ background-color:rgb(142,190,190);
-	background-image: url('conect4.jpg');
+#home3{ background-color:white;
 	background-size:contain;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
-  color: #000000;
-  padding-top:200px;
-  padding-bottom:200px;
+        color: #000000;
+        padding-top:200px;
+        padding-bottom:200px;
+        text-align:center;
+}
+
+.a{ background:rgb(97,175,154);
+}
+
+.ab{ background:white;
+     text-align:left;
+     font-family: "Sawarabi Gothic";
+     margin:0 auto
+}
+
+.abc{ margin:80px;
+      color:white;
+}
+
+.btn-flat-border{ display: inline-block;
+                  padding:80px 100px;
+                  text-decoration: none;
+                  color:pink;
+                  border: solid 10px rgb(97,175,154);
+                  border-radius:3px;
+                  transition:. 4s;
+                  
+}
+
+.btn-flat-border:hover{ background:rgb(97,175,154);
+                        color:white;
 }
 
 #home4{
