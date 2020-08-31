@@ -155,7 +155,7 @@ z-index: 1;
     display: table-cell;
     vertical-align: middle;
     color: #FFF;
-    width:350px;
+    width:300px;
     height:150px;
     background-color:rgba(227,215,163,0.7);
     font-size:25px;
@@ -172,7 +172,7 @@ z-index: 1;
   display: table-cell;
   vertical-align: middle;
   color: #FFF;
-  width:350px;
+  width:300px;  
   height:150px;
   background-color: rgba(227,215,163,0.7);
   font-size:25px;
@@ -189,7 +189,7 @@ z-index: 1;
   display: table-cell;
   vertical-align: middle;
   color: #FFF;
-  width:350px;
+  width:300px;
   height:150px;
   background-color: rgba(227,215,163,0.7);
   font-size:25px;
@@ -205,7 +205,7 @@ z-index: 1;
   display: table-cell;
   vertical-align: middle;
   color: #FFF;
-  width:350px;
+  width:300px;
   height:150px;
   background-color: rgba(227,215,163,0.7);
   font-size:25px;
@@ -227,21 +227,23 @@ h2{
   black 1px -1px 0px, black -1px -1px 0px;
 }
 form div{
-  margin-bottom:50px;
+  margin-bottom:14px;
   margin-left:100px;
 }
 label{
   font-size:1.5rem;
-  margin-bottom:20px;
+  margin-bottom:10px;
   display:block;
+  
 }
 input[type="text"],
 input[type="email"],
 textarea{
  background:rgba(255,255,255,0.5);
- border:3px #fff solod;
+ border:1px #fff solid;
  border-radius:5px;
- font-size:50px;
+ padding:10px;
+ font-size:1rem;
 }
 input[type="text"],
 input[type="email"]{
@@ -253,13 +255,23 @@ textarea{
       max-width:480px;
       height:6rem;
 }
-input[type="submit"]{
-      border:none;
-      cursor:pointer;
-      line-height:1;
-      font-size:30px;
-      margin-left:100px;
-      
+.btn-square-so-pop {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #fd9535;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  border: solid 2px #d27d00;
+  margin-left:100px;
+}
+
+.btn-square-so-pop:active {
+  /*押したとき*/
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
 }
 
 /*リスト*/
