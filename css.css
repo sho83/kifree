@@ -45,7 +45,7 @@ img{
     background-color:rgba(0,0,0,0.3);
 }
 .main-nav li{
-    margin-left:36px; 
+    margin-left:36px;
 }
 .main-nav a{
     color:#ffffff;
@@ -150,7 +150,7 @@ z-index: 1;
   color:#f6efdb;
   text-shadow: black 1px 1px 0px, black -1px 1px 0px,
   black 1px -1px 0px, black -1px -1px 0px;
-  
+
 }
 
 #home3{ background-color:white;
@@ -184,7 +184,7 @@ z-index: 1;
                   border: solid 10px rgb(97,175,154);
                   border-radius:3px;
                   transition:. 4s;
-                  
+
 }
 
 .btn-flat-border:hover{ background:rgb(97,175,154);
@@ -215,12 +215,12 @@ z-index: 1;
 .step1 span{
    vertical-align:middle;
 }
- 
+
 .step2{
   display: table-cell;
   vertical-align: middle;
   color: #FFF;
-  width:300px;  
+  width:300px;
   height:150px;
   background-color: rgba(227,215,163,0.7);
   font-size:25px;
@@ -232,7 +232,7 @@ z-index: 1;
 .step2 span{
    vertical-align:middle;
 }
- 
+
 .step3{
   display: table-cell;
   vertical-align: middle;
@@ -274,6 +274,7 @@ h2{
   text-shadow: black 1px 1px 0px, black -1px 1px 0px,
   black 1px -1px 0px, black -1px -1px 0px;
 }
+
 form div{
   margin-bottom:14px;
   margin-left:100px;
@@ -282,7 +283,7 @@ label{
   font-size:1.5rem;
   margin-bottom:10px;
   display:block;
-  
+
 }
 input[type="text"],
 input[type="email"],
