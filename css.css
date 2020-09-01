@@ -24,8 +24,8 @@ img{
 /*page-header
 ------------------*/
 .logo{
-  width: 210px;
-  margin-top: 20px;
+  width: 150px;
+  margin-top: 15px;
 }
 .page-header{
  display: flex;
@@ -35,6 +35,27 @@ img{
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 4%;
+}
+.main-nav{
+    display:flex;
+    font-size:1.5rem;
+    text-transform:uppercase;
+    margin-top:34px;
+    list-style:none;
+    background-color:rgba(0,0,0,0.3);
+}
+.main-nav li{
+    margin-left:36px; 
+}
+.main-nav a{
+    color:#ffffff;
+}
+.main-nav a:hover{
+    color:#ffffff;
+}
+.page-header{
+    display:flex;
+    justify-content:space-between;
 }
 
 /*home-content
@@ -232,7 +253,7 @@ z-index: 1;
   display: table-cell;
   vertical-align: middle;
   color: #FFF;
-  width:300px;
+  width:400px;
   height:150px;
   background-color: rgba(227,215,163,0.7);
   font-size:25px;
