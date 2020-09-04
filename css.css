@@ -30,7 +30,7 @@ img{
 .page-header{
  display: flex;
  justify-content: space-between;
-}
+ }
 .wrapper{
   max-width: 1400px;
   margin: 0 auto;
@@ -53,10 +53,11 @@ img{
 .main-nav a:hover{
     color:#ffffff;
 }
-.page-header{
-    display:flex;
-    justify-content:space-between;
-}
+
+
+
+
+
 
 /*home-content
 --------------*/
@@ -99,6 +100,9 @@ img{
   transition: .4s;
   font-size: 25px;
   font-weight: normal;
+}
+.button{
+ color:#f6efdb;
 }
 
 .btn-circle-fishy:hover {
@@ -265,7 +269,6 @@ z-index: 1;
 .step4 span{
    vertical-align:middle;
 }
-
 /*フォ―ム*/
 h2{
  padding-top: 150px;
@@ -274,25 +277,31 @@ h2{
   text-shadow: black 1px 1px 0px, black -1px 1px 0px,
   black 1px -1px 0px, black -1px -1px 0px;
 }
-
 form div{
-  margin-bottom:14px;
-  margin-left:100px;
+    margin-bottom:14px;
+    margin-left:100px;
+    
 }
-label{
-  font-size:1.5rem;
-  margin-bottom:10px;
-  display:block;
 
-}
+
+label{
+  font-size:1rem;
+  margin-bottom:10px;
+  margin-right:10px;
+  width:100px;
+  float:left;
+  display:block;
+ }
 input[type="text"],
 input[type="email"],
+input[type="message"],
 textarea{
  background:rgba(255,255,255,0.5);
  border:1px #fff solid;
  border-radius:5px;
  padding:10px;
  font-size:1rem;
+ 
 }
 input[type="text"],
 input[type="email"]{
@@ -317,6 +326,7 @@ textarea{
   border: solid 2px #d27d00;
   margin-left:100px;
 }
+
 
 .btn-square-so-pop:active {
   /*押したとき*/
