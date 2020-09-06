@@ -9,4 +9,6 @@ $(function(){
   });
 });
 
-
+$(document).on("click", "#abcd", function(){
+  $("html,body").animate({scrollTop:$('#home').offset().top});
+});

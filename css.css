@@ -164,14 +164,13 @@ z-index: 1;
 	background-position: center center;
         color: #000000;
         padding-top:200px;
-        padding-bottom:200px;
         text-align:center;
 }
 
 .a{ background:rgb(97,175,154);
 }
 
-.ab{ background:white;
+.ab{ background:rgb(220,241,237);
      text-align:left;
      font-family: "Sawarabi Gothic";
      margin:0 auto
@@ -269,14 +268,16 @@ z-index: 1;
 .step4 span{
    vertical-align:middle;
 }
+
 /*フォ―ム*/
-h2{
- padding-top: 150px;
-  font-size: 40px;
-  color:#f6efdb;
-  text-shadow: black 1px 1px 0px, black -1px 1px 0px,
-  black 1px -1px 0px, black -1px -1px 0px;
+h2{ padding-top: 150px;
+    font-size: 40px;
+    color:#f6efdb;
+    text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+    black 1px -1px 0px, black -1px -1px 0px;
+    text-align:center;
 }
+
 form div{
     margin-bottom:14px;
     margin-left:100px;
@@ -333,74 +334,27 @@ textarea{
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
 }
 
-/*リスト*/
-ol {
-  margin: 0 auto;
-  counter-reset:number; /*数字をリセット*/
-  list-style-type: none!important; /*数字を一旦消す*/
-  padding: 5%;
-  border: solid 2px #ffb107;
-  font-family: 'Philosopher', serif;
-  color: white;
-  font-weight: 700;
-  width:80%;
-  min-width:350px;
-  max-width:630px;
-  background-color:rgba(142,190,190,0.5);
+#abcd{ color:rgb(97,175,154);
+       font-size:30px;
+       margin-left:750px; 
+       padding:20px;
 }
-ol li {
-  border-bottom: dashed 1px orange;
-  position: relative;
-  padding: 0.5em 0.5em 0.5em 30px;
-  line-height: 1.5em;
+
+.abcde{ opacity:0;
+        color:rgb(97,175,154);
+        font-size:20px;
 }
-ol li:before{
-  /* 以下数字をつける */
-  position: absolute;
-  counter-increment: number;
-  content: counter(number);
-  /*数字のデザイン変える*/
-  display:inline-block;
-  background: #ffb107;
-  color: white;
-  font-family: 'Avenir','Arial Black','Arial',sans-serif;
-  font-weight:bold;
-  font-size: 15px;
-  border-radius: 50%;
-  left: 0;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  text-align: center;
-  /*以下 上下中央寄せのため*/
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+
+#abcd:hover~.abcde{
+  opacity:1;
 }
-ol li:last-of-type {
-  border-bottom: none; /*最後のliの線だけ消す*/
-}
-#kifree-message{
-padding-top:200px;
-color:white;
-font-family: "Sawarabi Mincho";
-}
-#a{
-background-color:rgba(142,190,190,0.5);
-padding:30px;
-border:2px solid;
-border-color:rgb(255,154,53);
-width:80%;
-  min-width:350px;
-  max-width:800px;
-}
+
 /*footer*/
-footer{
-  background: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
-  text-align: left;
-  padding: 26px 0;
+footer{ background: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+        text-align:right;
+        padding:30px;
 }
-footer p{
-  color:#fff;
-  font-size: 2em;
+
+footer p{ color:#fff;
+          font-size:30px;
 }
