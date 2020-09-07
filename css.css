@@ -187,11 +187,12 @@ z-index: 1;
                   border: solid 10px rgb(97,175,154);
                   border-radius:3px;
                   transition:. 4s;
+                  background-color:rgb(220,241,237);
 
 }
 
 .btn-flat-border:hover{ background:rgb(97,175,154);
-                        color:white;
+                        color:pink;
 }
 
 #home4{

@@ -10,5 +10,6 @@ $(function(){
 });
 
 $(document).on("click", "#abcd", function(){
-  $("html,body").animate({scrollTop:$('#home').offset().top});
+  $("html,body").animate({scrollTop:$('#home').offset().top},1000,'swing');
+                          
 });
