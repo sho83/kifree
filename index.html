@@ -16,13 +16,13 @@
   <link rel="stylesheet" href="css.css">
   <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
-    
+
   <!-- BootstrapのCSS読み込み -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  
+
   <!-- jQuery読み込み -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   
+
   <!--ゆっくりスクロール-->
   <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
   <script>
@@ -34,12 +34,12 @@
           var href= $(this).attr("href");
           var target = $(href == "#" || href == "" ? 'html' : href);
           var position = target.offset().top;
-          $('body,html').animate({scrollTop:position}, 1500, 'swing');
+          $('body,html').animate({scrollTop:position}, 1000, 'swing');
           return false;
         });
       });
   </script>
-    
+
   <title>jQuery</title>
 
   <!--Font Awesomeの読み込み-->
@@ -78,13 +78,25 @@
   <div id="home2" class="big-bg">
     <div class="home-content wrapper">
     <div id="1">
-      <h2 id="text-title"><a name="Kifreeとは"><a class="button" href="#index">Kifreeとは？</a></a></h2>
+      <h2 id="text-title"><a name="Kifreeとは">
+        <a class="button" href="#index">Kifreeとは？</a></a></h2>
       <script src="index.js"></script>
-    <h3 id="text2">助けを必要する人は本当に必要なモノを必要な時に、必要な量得ることができる<br><br>
-支援者は本当に必要なモノが何なのか、いくつ必要なのかを自分の目で確認し支援ができる<br><br>
-状況が変わってもリアルタイムで確認ができ、システムで最適なバランスを保つ<br><br>
-人と人のつながりから世界を救う<br><br>
-それが…『Kifree』</h3>
+<h3 id="text2">
+助けを必要とする人は"アプリ一つで"本当に必要なモノを必要な時に、必要な量を求めることができる。
+<br><br><br>
+助けることができる人は、”アプリ一つで”本当に必要なモノの情報を知ることができる。
+<br><br><br>
+そして、”アプリ一つで”支援ができる。
+<br><br><br>
+変化する状況が”アプリ一つで”リアルタイムで確認できる。
+<br><br><br>
+バランスが崩れた時も、アプリが自動で最適化
+<br><br><br>
+人と人の繋がりが世界を救う時代のパイオニア
+<br><br><br>
+<p id="itiskifree">それが・・・『Kifree』</p>
+
+</h3>
 
       </div>
   </div>
@@ -151,7 +163,7 @@
 
     <a class="button" href="#index">
     <a href="#home4" class="btn-flat-border">
-     <h3 id="Kifree Point">> 支援の流れ</h3>
+     <h3 id="KifreePoint">> 支援の流れ</h3>
     </a>
     </a>
 
@@ -164,7 +176,7 @@
 <div id="home4" claass="big-bg">
       <div id="3">
        <div class="home-content wrapper">
-       <h2 id="支援の流れ"><a class="button" href="#index">支援の流れ</a></h2>
+       <h2 id="waytohelp"><a class="button" href="#index">支援の流れ</a></h2>
         <div class="step1">
           <img src="accessibility_new-24px.svg" title="home4" alt="通信" 　 width="50" height="50">
           物資を申請</div>
@@ -181,11 +193,11 @@
       </div>
 
  <div id="4">
-  
-  <h2 class="contact" id="～Contact Inf～">
+
+  <h2 class="contact" id="ContactInfo">
   <a class="button" href="#index">～Contact Info～</a>
   </h2>
-    
+
     <form action="#">
     <div align="left">
     <label for="name">お名前</label>
@@ -196,7 +208,7 @@
     <label for="email">メールアドレス</label>
     <input type="email" id="email" name="your-email">
     </div>
- 
+
     <div align="left">
     <label for="message">コメント</label>
     <textarea id="message" name="your-message"></textarea>
@@ -204,7 +216,7 @@
 
     <div align="left">
     <a href="#" class="btn-square-so-pop">送信</a>
-    </div>    
+    </div>
     </form>
  </div>
 </div>
