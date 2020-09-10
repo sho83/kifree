@@ -25,20 +25,7 @@
 
   <!--ゆっくりスクロール-->
   <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
-  <script>
-      $(function(){
-        // #で始まるリンクをクリックしたら実行
-        $('a[href^="#"]').click(function() {
-          var adjust=0;// スクロールの速度
-          var speed = 500; // ミリ秒で記述
-          var href= $(this).attr("href");
-          var target = $(href == "#" || href == "" ? 'html' : href);
-          var position = target.offset().top;
-          $('body,html').animate({scrollTop:position}, 1000, 'swing');
-          return false;
-        });
-      });
-  </script>
+  
 
   <title>jQuery</title>
 
