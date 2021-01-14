@@ -1,0 +1,102 @@
+.profile_box {
+  margin:0 auto;
+  background:white;
+}
+.box-title {
+  background:white;
+  padding:1.2em 0 1.2em;
+  text-align: center;
+  color:#000;
+  border-bottom:5px solid rgb(97,175,154);
+  font-weight:300;
+  font-size:2.4rem;
+  line-height:1.2;
+  margin:0 0 24px;
+  font-family: "Sawarabi Gothic";
+}
+.profile_center{
+  text-align: center;
+  margin:80px;
+}
+.profile_figure {
+  border-radius:3px;
+  border:solid 10px rgb(97,175,154);
+}
+.profile_name {
+  padding:0 0 20px 30px;
+  border-bottom:3px solid rgb(247,160,180);
+  color:#000;
+  font-size:1.8rem;
+  font-family: "Sawarabi Gothic";
+}
+.profile_box p {
+  padding:80px 100px;
+  margin: 0 auto;
+  margin-top:10px;
+  line-height:1.4;
+  text-align:center;
+  font-family: "Sawarabi Gothic";
+}
+.profile_box ul {
+  padding:80px 10px;
+  box-sizing:border-box;
+  text-align:center;
+  background:rgba(97,175,154,0.08);
+  margin:50px 10px;
+  padding-top:5px;
+  font-family: "Sawarabi Gothic";
+}
+.question{
+  border-bottom:3px solid rgb(247,160,180);
+  color:#000;
+  font-weight:300;
+  font-size:1.8rem;
+  line-height:1.2;
+  margin:60px 60px;
+  padding:0 0 20px 30px;
+  text-align:center;
+  margin-top:200px;
+  font-family: "Sawarabi Gothic";
+}
+.question p{
+  font-size:1.6rem;
+  font-family: "Sawarabi Gothic";
+}
+.question2{
+  background:rgba(97,175,154,0.08);
+  padding:80px 10px;
+  margin:50px 10px;
+  text-align:center;
+  padding-top:10px;
+  font-family: "Sawarabi Gothic";
+}
+.profile_box ul li {
+  padding:80px 100px;
+}
+.profile_box ul li:before {
+  color::white;
+  font-family: "Sawarabi Gothic";
+}
+a.btn-flat {
+  overflow: hidden;
+  padding:1.5rem 6rem;
+  color:#FFF;
+  border-radius:0;
+  background:rgb(97,175,154);
+  text-align:center;
+  min-width:20rem;
+  margin:50px 300px;
+  display:flex;
+  algin-items:center;
+  justify-content:center;
+  line-height:1;
+  font-weight:300;
+  font-size:1.8rem;
+  letter-spacing:.025em;
+  margin-top:50px;
+  font-family: "Sawarabi Gothic";
+}
+a.btn-flat span {
+  position: relative;
+  z-index: 1;
+}
