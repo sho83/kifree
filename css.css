@@ -92,16 +92,16 @@ img{
   display: inline-block;
   text-decoration: none;
   color: #FFF;
-  width: 160px;
-  height: 160px;
-  line-height: 155px;
+  width:200px;
+  height:200px;
+  line-height:200px;
   border-radius: 50%;
   text-align: center;
   overflow: hidden;
   background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
   transition: .4s;
-  font-size: 25px;
-  font-weight: normal;
+  font-size:30px;
+  font-weight:300;
 }
 .button{
  color:#f6efdb;
@@ -195,18 +195,19 @@ p.e{
 h2.f{
   text-align:center;
   font-size:30px;
-  line-height:1.4em;
+  line-height:1.6em;
   transform:scale(0.95,1);
   letter-spacing:0.1em;
   position:relative;
   display:block;
-  width:300px;
-  height:60px;
+  width:400px;
+  height:70px;
   background-color:rgb(220,241,237);
   margin:0 auto;
   box-sizing:border-box;
   padding-top:10px;
   margin-bottom:50px;
+  font-weight:300;
 
 }
 
@@ -304,11 +305,11 @@ p.g{
 
 .inner2{
   position:relative;
-  width:90%;
+  width:100%;
   margin:0 auto;
   padding-bottom:100px;
   border-bottom:10px dotted rgb(97,175,154);
-  margin-top:200px;
+  margin-top:300px;
 }
 
 #process1 h2{
@@ -337,7 +338,7 @@ p.g{
   background-color:#fff;
   box-shadow:5px 5px 5px rgba(0,0,0,0.1);
   border-radius:20px;
-  height:650px;
+  height:700px;
 }
 
 .process ul li{
@@ -401,10 +402,11 @@ p.g{
   text-align:center;
   padding:20px 0;
   max-width:350px;
-  width:90%;
+  width:100%;
   box-sizing:border-box;
-  margin:30px auto 0;
+  margin:10px auto;
   color:#fff;
+  font-weight:300;
 }
 
 .bg_pink{
@@ -495,56 +497,9 @@ p.g{
   max-width:350px;
   width:90%;
   box-sizing:border-box;
-  margin:30px auto 0;
+  margin:10px auto;
   color:#fff;
-}
-
-#projects{
-  background-color:rgb(220,241,237);
-  padding-bottom:50px;
-  padding-top:50px;
-  margin-top:40px;
-}
-
-.inner{
-  position:relative;
-  width:1000px;
-  margin:0 auto;
-  padding-bottom:0px;
-}
-
-p.i{
-  position:relative;
-  display:block;
-  width:200px;
-  height:50px;
-  background-color:#fff;
-  margin:0 auto;
-  box-sizing:border-box;
-  font-family:"Sawarabi Gothic";
-  font-size:20px;
-  text-align:center;
-  letter-spacing:0.1em;
-  padding-top:10px;
-  margin-bottom:50px;
-}
-
-#projects h2{
-  margin-bottom:40px;
-  text-align:center;
-  font-size:30px;
-  line-height:1.4em;
-  transform:scale(0.95,1);
-  letter-spacing:0.1em;
-  background-color:#fff;
-  width:200px;
-  height:60px;
-  position:relative;
-  display:block;
-  margin:0 auto;
-  box-sizing:border-box;
-  font-family:"Sawarabi Gothic";
-  padding-top:10px;
+  font-weight:300;
 }
 
 #contact{
